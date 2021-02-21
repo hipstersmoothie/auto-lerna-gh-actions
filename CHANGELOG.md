@@ -2,6 +2,20 @@
 
 #### ⚠️ Pushed to `main`
 
+- add npm install action back ([@hipstersmoothie](https://github.com/hipstersmoothie))
+- `@alisowski/test-package-gh-actions-b@0.0.5`
+  - create release ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+#### Authors: 1
+
+- Andrew Lisowski ([@hipstersmoothie](https://github.com/hipstersmoothie))
+
+---
+
+# (Sun Feb 21 2021)
+
+#### ⚠️ Pushed to `main`
+
 - `@alisowski/test-package-gh-actions-b@0.0.4`
   - create release ([@hipstersmoothie](https://github.com/hipstersmoothie))
 
