@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "auto-lerna-gh-actions",
+  "private": true,
+  "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "repository": "https://github.com/hipstersmoothie/auto-lerna-gh-actions",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "patch-package",
+    "release": "auto shipit -vv"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "auto": "^10.16.5",
+    "lerna": "^3.22.1",
+    "patch-package": "^6.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
