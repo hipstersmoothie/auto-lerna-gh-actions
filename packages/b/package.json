@@ -2,6 +2,7 @@
   "version": "0.0.2",
   "name": "@alisowski/test-package-gh-actions-b",
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
+  "description": "",
   "repository": "https://github.com/hipstersmoothie/auto-lerna-gh-actions",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
