@@ -17,11 +17,13 @@ jobs:
         with:
           node-version: 14.x
 
+      - name: Install dependencies
+        uses: bahmutov/npm-install@v1
+
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
-          yarn
           npm run release
